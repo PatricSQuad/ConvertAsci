@@ -1,8 +1,7 @@
 import os
 os.system('clear')
-nama = raw_input("Nama: ")
 logo ='\033[36m╔═╗╔═╗╔╗╔╦  ╦╔═╗╦═╗╔╦╗ asci💙\033[37m v\033[36m0.1\n║  ║ ║║║║╚╗╔╝║╣ ╠╦╝ ║   \033[37m\n╚═╝╚═╝╝╚╝ ╚╝ ╚═╝╩╚═ ╩\n[\033[32m•\033[37m\033[37m]\033[37m Autor    \033[36m: \033[37mgOdenBngsd\n    WhatsApp \033[36m: \033[37m+6281586610616\n    Facebook \033[36m: \033[37mhttps://m.facebook.com/05Asiyap\n    Github   \033[36m: \033[37mhttps://github.com/PatricSQuad'
-city = u'{}'.format(nama) #<-/// masukan kode assci disini ///#
+city = u'💙 + 💙' #<-/// masukan kode assci disini ///#
 utf8_encoded = city.encode('utf-8')
 print(logo)
 print()
